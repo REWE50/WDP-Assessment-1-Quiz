@@ -12,7 +12,7 @@
          
     <?php
         include 'classes/Questions.class.php';
-        $aq1 = new Questions();
+        $q1 = new Questions();
     ?>
     
 <meta charset="utf-8">
@@ -35,24 +35,24 @@
                   			<th colspan="2">Questions</th>
                			</tr>
                         <tr>
-                          	<td><?php echo $aq1->getQuestion('num1'); ?></td>
-                          	<td><?php echo $aq1->getQuestion('q1'); ?></td>
+                          	<td><?php echo $q1->getQuestion('num1'); ?></td>
+                          	<td><?php echo $q1->getQuestion('q1'); ?></td>
                         </tr>
                         <tr>
-                          	<td><?php echo $aq1->getQuestion('num2'); ?></td>
-	                        <td><?php echo $aq1->getQuestion('q2'); ?></td>
+                          	<td><?php echo $q1->getQuestion('num2'); ?></td>
+	                        <td><?php echo $q1->getQuestion('q2'); ?></td>
                         </tr>
                         <tr>
-                          	<td><?php echo $aq1->getQuestion('num3'); ?></td>
-                        	<td><?php echo $aq1->getQuestion('q3'); ?></td>
+                          	<td><?php echo $q1->getQuestion('num3'); ?></td>
+                        	<td><?php echo $q1->getQuestion('q3'); ?></td>
                         </tr>
                         <tr>
-                          	<td><?php echo $aq1->getQuestion('num4'); ?></td>
-                         	<td><?php echo $aq1->getQuestion('q4'); ?></td>
+                          	<td><?php echo $q1->getQuestion('num4'); ?></td>
+                         	<td><?php echo $q1->getQuestion('q4'); ?></td>
                         </tr>
                         <tr>
-                         	<td><?php echo $aq1->getQuestion('num5'); ?></td>
-                          	<td><?php echo $aq1->getQuestion('q5'); ?></td>
+                         	<td><?php echo $q1->getQuestion('num5'); ?></td>
+                          	<td><?php echo $q1->getQuestion('q5'); ?></td>
                         </tr>
                     </tbody>
                 </table>
