@@ -1,0 +1,164 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+/*
+
+Ray Egan
+13/02/17
+WDP Assessment 1 V4 - CSS Stylesheet
+
+*/
+
+body
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", sans-serif;
+	font-size: 12px; 
+	background-color: #114f07;
+	background-image: url(../images/ireland-fields.jpg); /*  image labelled public domain - http://www.pixnio.com/nature-landscapes/field/ireland-fields */
+	background-repeat: no-repeat;
+}
+.container
+{
+	margin: auto;
+	margin-top: 80px;
+	width: 880px;
+	background-color: #EFEFEF;
+}
+.content
+{
+	position: relative;
+	border: 1px solid #000;
+	height: 100%;
+	width: 880px;
+	-webkit-box-shadow: 0px 0px 200px 25px #303233;
+	box-shadow: 0px 0px 200px 25px #303233;
+}
+.header
+{
+	width: 100%;
+	height: 185px;
+	padding-top:15px;
+	border-bottom: dashed 1px #000;
+}
+#banner 												/*  banner code is my own code re-used from an old project */
+{
+	text-align: center;
+	font-family: 'Sansita', sans-serif;					/* free google font */
+	font-size: 50px;
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+	width: 940px;
+	height: 85px;
+	background-color: #149A43;
+	position: absolute;
+	z-index: 1;
+	left: -32px;
+	top: 50px;
+	padding-top: 15px;
+	border: 1px solid #000;
+}
+#banner:before 
+{
+	width: 0px;
+	height: 0px;
+	content: "";
+	position: absolute;
+	border-left: 31px solid transparent;
+	border-bottom: 15px solid #0F0;
+	top: -16px;
+	left: -1px;
+}
+#banner:after 
+{
+	width: 0px;
+	height: 0px;
+	content: "";
+	position: absolute;
+	border-right: 29px solid transparent;
+	border-top: 15px solid #0F0;
+	bottom: -16px;
+	right: -1px;
+}
+.questions
+{
+	clear: both;
+	float: left;
+	width: 549px;
+	height: 245px;
+	padding-left: 9px;
+	font-size: 12px;	
+}
+.answers
+{
+	float: left;
+	padding-left: 5px;
+	width: 105px;
+	height: 245px;
+	border-left: dashed 1px #000;
+}
+.correctAnswers
+{
+	float: left;
+	width: 110px;
+	height: 245px;
+}
+.score
+{
+	float: left;
+	padding-left: 10px;
+	width: 90px;
+	height: 245px;
+	color: #009E16;
+	font-weight: bold;
+}
+th
+{
+	text-align: left;
+	font-weight: bold;
+	height: 35px;
+	color: #000;
+}
+td
+{
+	height: 35px;
+}
+input
+{
+	height: 28px;
+	width: 110px;
+}
+input[type=submit]
+{
+	width: 114px;
+}
+a:link 
+{
+    color: #FFF;
+	text-decoration: none;
+}
+a:visited 
+{
+    color: #FFF;
+	text-decoration: none;
+}
+a:hover 
+{
+    color: #FFF;
+	text-decoration: none;
+}
+a:active 
+{
+    color: #FFF;
+	text-decoration: none;
+}
+.footer
+{
+	clear: both;
+	font-family: 'Sansita', sans-serif;
+	border-top: dashed 1px #000;
+	width: 100%;
+	height: 80px;	
+	padding-top: 20px;
+	text-align: center;
+	font-size: 40px;
+}
